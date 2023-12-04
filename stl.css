@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('https://gmedia.playstation.com/is/image/SIEPDC/playstation-wallpapers_ghost-of-tsushima-desktop_manga-4K-01-ps4-26jun20-en-us?$1600px--t$');
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    
+}
+.navbar{
+    height: 54px;
+    width: 100%;
+    background-color:transparent;
+    opacity: 90%;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 50px;
+    margin-top: 90px;
+    overflow: hidden;
+    position: sticky;
+    top: 0%;    
+}
+.navbar a{
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+img{
+    height: auto;
+    max-width: 100%;
+    margin-top: 15px;
+}
+#myvid{
+    max-width: 100%;
+    min-width: 100%;
+}
+.navbar h2{
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar h2:hover{
+    font-size: 148%;
+    color: crimson;
+    text-shadow: 10px 10px 10px black;
+}
+.box{
+    position: relative;
+    max-width: 100%;
+
+}
+#myVideo{
+    position: relative;
+    left: 7.5%;
+}
+#Logo{
+    position: relative;
+    left:19.4%;
+}
+.Overview{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    margin-top: -20px;
+    max-width: 100%;
+}
+.Overview h1{
+    font-size: 100px;
+    color: goldenrod;
+    position: relative;
+    left: 55px;
+    max-width: 100px;
+    font-family:'Franklin Gothic Medium';
+}
+.Overview:hover{
+    text-shadow: 5px 5px 5px rgb(211, 0, 0);
+
+}
+.cbox{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+}
+
+.content{
+    height: 450px;
+    width: 30%;
+    background-color: transparent;
+    display: inline-block;
+}
+.content h1{
+    color: white;
+    font-size: 490%;
+    margin-left: 80px;
+    text-shadow: 5px 5px 5px gray;
+}
+.gst h1{
+    color: crimson;
+    font-size: 490%;
+    margin-left: 80px;
+    text-shadow: 5px 5px 5px darkred;
+    font-style: italic;
+
+}
+.txt{
+    height: 450px;
+    width: 47%;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 330px;
+    font-size: 30px;
+    color: seashell;
+    font-family: monospace;
+    text-shadow:  1px 1px white;
+}
+.pic{
+    height: 700px;
+    width: 100%;
+    margin-top: 40px;
+}
+.txt span{
+    color: darkred;
+    text-shadow:  1px 1px darkred;
+}
+.tsu span{
+    color: darkred;
+    text-shadow:  1px 1px darkred;
+}
+.fg2 span{
+        color: crimson;
+        text-shadow:  1px 1px darkred;
+    }
+.pic img{
+    height: 100%;
+    width: 45%;
+    object-fit: cover;
+    transform: translate(0,10%);
+    opacity: .90;
+    float: right;
+    margin-right: 34px;
+}
+.tsu{
+    color: azure;
+    font-size: 30px;
+    color: rgb(41, 171, 135);
+    font-family: monospace;
+    text-shadow: 1px 1px darkgreen;
+
+}
+.tsu h3{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 150px;
+    color: antiquewhite;
+}
+.sam{
+    height: 700px;
+    width: 100%;
+    margin-top: 110px;
+}
+.sam  img{
+    height: 100%;
+    width: 45%;
+    object-fit: cover;
+    transform: translate(0,10%);
+    opacity: .88;
+    float: left;
+    margin-right: 34px;
+}
+.sam h3{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 150px;
+    margin-right: 100px;
+    color: rgb(255, 195, 116);
+    position: relative;
+    top: 30px;
+}
+.jin{
+    font-size: 30px;
+    color: rgb(224, 78, 20);
+    font-family: monospace;
+    text-shadow: 1px 1px crimson;
+}
+.jin p{
+    margin-top: 120px;
+}
+.fg{
+    height: 700px;
+    width: 100%;
+    margin-top: 110px;
+}
+.fg  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(0,10%);
+    opacity: .88;
+    float: left;
+    margin-right: 34px;
+}
+.fg2 h3{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(255, 102, 102);
+    text-shadow: 2px 2px crimson;
+}
+.fg2 p{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: monospace;
+    text-shadow: 1px 1px crimson;
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: -60px;
+}
+.imer{
+    margin-top: 700px;
+    height: 700px;
+    width: 100%;
+    background-color: transparent
+}
+.imer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(0,10%);
+    opacity: .92;
+    float: left;
+    margin-right: 34px;
+    margin-top: -72px;
+}
+.imer2{
+    height: 100px;
+    width: 100%;   
+}
+.imer2 h1{
+    font-size: 780%;
+    color: lavender;
+    float: right;
+    margin-right: 34px;
+    font-family: Georgia;
+}
+.imer2 h6{
+    font-size: 145%;
+    color: rgb(255, 243, 177);
+    float: right;
+    margin-right: -520px;
+    margin-top: 210px;
+    font-family: monospace;
+}
+.imer2 ul{
+    max-width: 45%;
+    margin-top: 260px;
+    font-size: 145%;
+    color: rgb(255, 243, 177);
+    float: left;
+    font-family: monospace;
+}
